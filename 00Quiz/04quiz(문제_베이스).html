@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{padding: 0; margin: 0; list-style: none;}
+
+        .wrap {
+            width: 1020px; 
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        
+        .content {overflow: hidden;}
+       
+        .list-wrap {
+            width:480px; 
+            height: 310px;
+            float: left; 
+            border: 1px solid #777;
+        }
+
+        .list-wrap > ul > li {
+            width: 33.3333%;
+            height: 155px;
+            border: 1px solid #777;
+            box-sizing: border-box;
+            padding: 5px;
+            float: left;
+        }
+        
+        .slide-wrap {
+            width: 236px; 
+            float: left; 
+            border: 1px solid #777; 
+            height: 310px;
+            margin-left: 8px;
+        }
+
+        .slide-wrap > img {
+            width: 236px;
+            height: 310px;
+        }
+
+        .user-wrap {
+            width: 280px; 
+            float: left; 
+            border: 1px solid #777; 
+            height: 310px;
+            margin-left: 8px;
+        }
+
+        .right-top {
+            height: 70px;
+            padding: 50px 15px;
+            border: 1px solid #777;
+        }
+
+        .join-area {
+            margin-bottom: 20px;
+            overflow: hidden;
+            color: #777;
+            font-size: 10px;
+        }
+
+        .join-area .left {
+            float: left;
+        }
+
+        .join-area .right {
+            float: right;
+        }
+
+        .user-wrap .my-btn {
+            background-color: #03c75a;
+            padding: 10px 30px;
+            color: #fff;
+            border: none;
+            width: 250px;
+            text-align: center;
+            box-sizing: border-box;
+            font-size: 15px;
+
+        }
+
+        .right-bottom {
+            padding: 10px;
+        }
+
+            
+    </style>
+
+
+
+</head>
+<body>
+    
+    <section>
+        <div class="wrap">
+            
+        <div class="content">
+            <p>최신앨범</p>
+            <div class="list-wrap"><!-- 왼 -->
+                <ul>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                    <li>사진</li>
+                </ul>
+            </div>
+            <div class="slide-wrap"><!-- 가운데 -->
+                <img src="img/포차코.png" alt="포차코">
+            </div>
+            <div class="user-wrap"><!-- 오른쪽 -->
+                <div class="right-top">
+                    <div class="join-area">
+                        <p class="left">멜론을 더 안전하게 이용하세요</p>
+                        <p class="right">회원가입</p>
+                    </div>
+                    <button class="my-btn">로그인</button>
+                </div>
+                <div class="right-bottom">
+                    프로모션 영역...
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+</body>
+</html>

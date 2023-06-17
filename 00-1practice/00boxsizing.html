@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{padding: 0; margin: 0;}
+
+    div{
+        width: 250px;
+        height: 250px;
+        border: 1px solid #777;
+        display: inline-block;
+        margin-top: 50px;
+    }
+
+    .a {
+        padding: 10px;
+    }
+
+    .b {
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+
+</style>
+
+
+</head>
+<body>
+    
+    <!-- box-sizing을 적용하지 않으면 가로세로 272px이 됨 -->
+    <!-- (패딩 10 + 선 1) *2 -->
+    <div class="a"> 가로세로 250:250 패딩 10px</div>
+
+    <div class="b">
+        box-sizing 적용
+    </div>
+
+
+</body>
+</html>
