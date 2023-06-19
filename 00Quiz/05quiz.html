@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {padding: 0; margin: 0;}
+
+        .wrap {
+            border: 1px solid #000;
+            width: 500px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            position: relative;
+            padding: 10px;
+        }
+
+        .profile {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+
+        .profile img {width: 50px;}
+
+        .content {
+            padding-left: 50px;
+            overflow: hidden;
+            margin: 10px;
+        }
+
+        .wrap textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px; 
+            resize: vertical; /* textarea size 고정 */
+            min-height: 100px;
+        }
+
+        .control {
+            overflow: hidden;
+        }
+
+        .control .left {
+            float: left;
+        }
+
+        .control .left > input {
+            display: block;
+            width: 150px;
+        }
+
+        .control .left input:nth-child(2) {margin-top: 3px;}
+
+        .control .right {
+            float: right;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="wrap">
+        <div class="profile">
+            <img src="img/bgimg.png">
+        </div>
+        <div class="content">
+            <textarea></textarea>
+            <div class="control"> <!-- 오버플로우 -->
+                <div class="left"> <!-- left -->
+                    <input type="text">
+                    <input type="text">
+                </div>
+                    <button class="right">등록하기</button> <!-- right -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
