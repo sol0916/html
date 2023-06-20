@@ -1,0 +1,93 @@
+/* header */
+.top-border{ border-top: 3px solid green;}
+.top-box {overflow: hidden; width:1008px; margin: 0 auto; padding: 11px 7px; font-size: 11px;}
+.top-box > p {float: left;}
+.top-box > ul {float: right}
+.top-box > ul > li {display: inline-block; border-left: 1px solid #afadad; padding: 0 10px;}
+.top-box > ul > li > a {text-decoration: none; text-align: center; color: #000;}
+
+
+.mid-box {border: 1px solid #999;}
+.mid-box .mid-line {width: 1008px; margin: 0 auto; overflow: hidden;}
+.mid-box .mid-line .left-img {float: left;}
+.mid-box .mid-line .right-img {float: right; margin-top: 10px;}
+.mid-box .mid-line .search {width: 330px; height: 40px; margin: 36px 0 0 11px; float: left; overflow: hidden; background-image: url('img_melon/melon_search.png');}
+.mid-box .mid-line .search > input {float: left; width: 260px; height: 25px; margin: 7px 0 0 10px; border: none;}
+.mid-box .mid-line .search > button {width: 45px; height: 40px; float: right; border: none; background-image: url('img_melon/melon_btn.png'); }
+
+.mid-box > nav {overflow: hidden; width:1008px; margin: 0 auto;}
+.mid-box .nav-bar {float: left;}
+.mid-box .nav-bar > li {display: inline-block; padding: 10px; }
+.mid-box .my-music {float: right;}
+.mid-box .my-music > li {display: inline-block; padding: 10px; }
+.mid-box li > a {text-decoration: none; text-align: center; color: #000; font-size: 15px; font-weight: 700; height: 40px;}
+
+
+/* section */
+section .wrap {width: 1008px; margin: 0 auto; margin-top: 30px;}
+
+section .content {overflow: hidden;}
+section .content .list-wrap {width: 480px; float: left;}
+section .content .slide-wrap {width: 236px; float: left;}
+section .content .user-wrap {width: 280px; float: left;}
+
+/* 이미지의 가수명 영역 */
+.list-wrap ul {overflow: hidden;}
+.list-wrap ul li {float: left; width: 33.3333%; position: relative;}
+.list-wrap ul li a {position: relative;}
+.list-wrap ul li a .singer {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    font-size: 11px;
+    height: 22px;
+    line-height: 22px;
+    opacity: 0.9 ;
+}
+.list-wrap ul li .hover-cont {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 155px;
+    height: 155px;
+    background-color: black;
+    opacity: 0; /* 호버가 닿으면 1로 변경 */
+    z-index: 10; /*  가장 위쪽 */
+    transition: opacity .5s ease-in-out;
+}
+
+/* 호버 */
+.list-wrap ul li:hover > .hover-cont {
+    opacity: 1;
+}
+
+.list-wrap ul li .hover-cont a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-wrap {height: 120px; padding: 20px 20px 0; box-sizing: border-box;}
+.login-wrap > .top {overflow: hidden;}
+.login-wrap > .top > .left {float: left; font-size: 11px; color: #999;}
+.login-wrap > .top > .right {float: right; font-size: 11px; color: #999;}
+.login-wrap > button {width: 100%; border: none; background-color: #00d344; color:#fff; padding: 10px 0; margin-top: 5px;}
+
+/*  */
+.slide-wrap {margin-left: 4px; height: 118px;}
+.user-wrap {margin-left: 8px;}
+.user-wrap > .login-wrap {
+    border: 1px solid #ddd;
+}
+.user-wrap > .promotion-wrap {
+    margin-top: 8px;
+}

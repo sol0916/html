@@ -3,7 +3,7 @@
 * {padding: 0; margin: 0; font-family: 'Roboto', 'sans-serif';}
 ul, li {list-style: none;}
 image {width: 100%; height: auto;}
-a {text-decoration: none; color: #000;}
+a {text-decoration: none; color: #555;}
 
 /* header */
 header{position: fixed; top: 0; left: 0; width:100%; z-index: 10; background-color: #fff;}
@@ -14,23 +14,33 @@ header{position: fixed; top: 0; left: 0; width:100%; z-index: 10; background-col
     height: 32px;
     background-image: url('images/social.png');
     float: left;
+    /* text-indent: -9999px; 글씨 들여쓰기, 내어쓰기 */ 
 }
-#main_header .social > li:nth-child(2) {background-position: -32px;}
-#main_header .social > li:nth-child(3) {background-position: -64px;}
-#main_header .social > li:nth-child(4) {background-position: -96px;}
+#main_header /* ul */.social > li:nth-child(2) {background-position: -32px;}
+#main_header /* ul */.social > li:nth-child(3) {background-position: -64px;}
+#main_header /* ul */.social > li:nth-child(4) {background-position: -96px;}
 
 #main_header > h1 {text-align: center; margin: 20px 0; font-size: 2em;}
 
 #main_header .login {position: absolute; top: 20px; right: 15px; overflow: hidden; display: block;}
-#main_header .login > li{float: left; padding-left: 30px; font-size: 12px; color: #555;}
+#main_header .login > li{float: left; padding-left: 30px; font-size: 12px;}
 
 nav {display: block; margin: 0 auto;}
 .nav_box {text-align: center; margin-top: 30px;}
-.nav_box > li {padding: 20px 30px; display: inline-block; color: #555;}
+.nav_box > li {padding: 20px 30px; display: inline-block;}
 
 
 /* section - main_image */
-#main_image {border-top: 3px solid red; height: 500px; margin-top: 170px; background-image: url('images/main.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;}
+#main_image {
+    border-top: 3px solid red; 
+    height: 500px; 
+    margin-top: 170px; 
+    background-image: url('images/main.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    /* background-attachment: fixed; */
+}   
 #main_image .main_title {color: #fff; font-size: 50px; letter-spacing: 15px; padding-top: 100px; text-align: center; line-height: 80px;}
 #main_image .sub_title{color: #fff; font-size: 30px; text-align: center; line-height: 80px;}
 
