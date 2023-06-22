@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    font-family: 'Orbit', serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul, li, ol, dd, dl {
+    list-style: none;
+}
+
+
+/* section */
+.col-xs-12 {
+    width: 100%;
+    float: left;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.title-box {
+    margin: 20px 0;
+}
+
+.title-box .main {
+    font-size: 30px;
+    display: inline-block;
+}
+
+.title-box .sub {
+    font-size: 20px;
+    color: #777;
+    display: inline-block
+}
+
+.title-box > hr {
+    border-color: #ddd;
+}
+
+.image-box {
+    float: left;
+    padding: 20px 0;
+    margin: 20px 0;
+    display: inline-block;
+}
+.image-box > img {
+
+}
+
+.prod-box {
+    position: relative;
+    padding: 0 15px;
+    float: right;
+    display: inline-block;
+}
+
+.prod-box .detail-info {
+    min-height: 345px;
+}
+
+.prod-box .detail-info .title {
+    margin: 30px 0;
+    font-size: 20px;
+
+}
+
+.prod-box .detail-info .price {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+.prod-box .detail-info .delivery {
+    color: #888;
+    font-size: 11px;
+
+}
+
+.prod-box .my-btn .prod-price {
+    overflow: hidden;
+}
+
+.prod-box .my-btn .prod-price > p {
+    float: left;
+}
+
+.prod-box .my-btn .prod-price > strong {
+    float: right;
+    font-size: 20px;
+}
+
+.prod-box .my-btn .prod-btn {
+    
+}
