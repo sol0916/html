@@ -19,7 +19,6 @@ ul, li, ol, dd, dl {
 }
 
 
-/* section */
 .col-xs-12 {
     width: 100%;
     float: left;
@@ -30,6 +29,7 @@ ul, li, ol, dd, dl {
 }
 
 
+/* section */
 .container {
     margin: 0 auto;
     width: 1000px;
